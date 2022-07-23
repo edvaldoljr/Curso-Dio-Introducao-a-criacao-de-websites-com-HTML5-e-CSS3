@@ -1,24 +1,67 @@
 body {
-    background: #ccc
+    background: #697878;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif;
+    max-width: 1200px;
+    margin: auto;
 }
 
+
 .ilustracaodomeurosto{
+    display: block;
+    margin: 0px auto;
     border-radius: 50%;
+    border: 3px solid #191212;
 }
 
 #title, .subtitle, .post_title {
-    color: blue;
+    text-align: center;
+    color: #191212;
+    margin: 10px;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .post_title {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post{
-  background: #FFF;
-  padding: 10px;
-  border: 3px solid #000;
-  margin: 10px;
+  background: #9da7a7;
+  padding: 15px;
+  border: 3px solid #231919;
+  margin-bottom: 15px;
+  border-radius: 7px;
   
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.post_img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+.post_stack {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li a {
+    color: blue;
 }
