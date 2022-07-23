@@ -2,6 +2,10 @@ body {
     background: #ccc
 }
 
+.ilustracaodomeurosto{
+    border-radius: 50%;
+}
+
 #title, .subtitle, .post_title {
     color: blue;
 }
